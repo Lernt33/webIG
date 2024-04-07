@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100px;
+    padding: 20px 50px 15px;
+    position: fixed;
+    background-color: var(--secondary-color);
+    z-index: 1;
+}
+:root {
+    --primary-color: #071D2B;
+    --secondary-color: #fff;
+}
+.dark-theme {
+    --primary-color: #fff;
+    --secondary-color: #071D2B;
+}
+.header__download {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.moon__sun {
+    width: 75px;
+    height: 75px;
+    background-size: contain;
+    cursor: pointer;
+}
+.header__download > h3 {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 24px;
+    width: 300px;
+}
+.header__download--div h5 {
+    margin: 0 0 0 10px;
+    font-size: 15px;
+}
+.h5 {
+    font-weight: 300;
+    margin-bottom: 10px !important;
+}
+.header__download > div {
+    display: flex;
+    align-items: center;
+    width: 230px;
+}
+.header_img {
+    width: 100px;
+    background-image: url("https://i.ibb.co/MphbZDP/Info-Guard.png");
+    height: 100px;
+    background-size: contain;
+}
+.checkers__img {
+    background-image: url("https://i.ibb.co/qy5vYwN/Checkers.png");
+    width: 200px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.header__img2 {
+    background-image: url("https://static3.avast.com/10003394/web/i/v3/aim/img/_awards/avc-top-rated-2022.png?height=38");
+    width: 100px;
+    height: 58px;
+    background-size: cover;
+}
+.main__img {
+    background-image: url("https://i.ibb.co/MphbZDP/Info-Guard.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+.main__img5 {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-image: url("https://static3.avast.com/10003394/web/i/v3/components/icons/feature-icons/80x80/badge-ribbon-star.svg");
+}
+.main__img6 {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-image: url("https://static3.avast.com/10003394/web/i/v3/components/icons/feature-icons/80x80/other-threats--browser-software.svg");
+}
+.main__img7 {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-image: url("https://static3.avast.com/10003394/web/i/v3/components/icons/feature-icons/80x80/users--account.svg");
+}
+.main__img8 {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-image: url("https://static3.avast.com/10003394/web/i/v3/components/icons/feature-icons/80x80/web-shield--globe.svg");
+}
+.header__download > h3 + a {
+    background: #0070F6;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.main__section--div1 {
+    display: grid;
+    grid-template-columns: 7fr 6fr;
+    height: 650px;
+}
+.main__section--div1 > div {
+    width: 80%;
+    margin-left: 17%;
+    height: 650px;
+}
+.main__section0 {
+    background-color: var(--secondary-color);
+    padding-top: 200px;
+    height: 1000px;
+}
+.main__section--div1 > div h1 {
+    font-size: 60px;
+    color: var(--primary-color);
+    font-weight: 800;
+    margin-top: 0;
+}
+.main__section--div1 > div h1 + p {
+    font-size: 28px;
+    line-height: 1.6;
+    color: var(--primary-color);
+    font-weight: 300;
+}
+.main__section--div1 > div h1 + p + div {
+    display: flex;
+    margin: 40px 0;
+}
+.main__section--div1 > div h1 + p + div a {
+    background: #0070F6;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    width: 250px;
+    height: 65px;
+    font-weight: 600;
+}
+#Compare {
+    background-color: white;
+    color: #0070F6;
+    border: 2px solid #0070F6;
+    margin-left: 50px;
+}
+
+.main__div--div > div h5 {
+    margin: 0 0 0 10px;
+}
+#span {
+    color: var(--primary-color);
+}
+#span a {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+#main-h5 {
+    margin-bottom: 10px;
+}
+#main__div2 {
+    display: flex;
+    height: 80px;
+    width: 1000px;
+    margin: 50px auto;
+    padding: 40px 100px;
+    justify-content: space-between;
+    background-color: #FFF1E5;
+    border-radius: 35px;
+    margin-top: 100px;
+}
+#main__div2 > div {
+    display: flex;
+    align-items: center;
+}
+#main__div2 > div span {
+    width: 140px;
+    color: #071D2B;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.surati {
+    margin-right: 15px;
+}
+.main__section {
+    background-color: #0C2636;
+    width: 100%;
+    height: 340px;
+    padding: 140px 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.main__section > div {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 400px;
+}
+.main__section > div + p {
+    width: 1120px;
+    height: 150px;
+    font-weight: 800;
+    font-size: 50px;
+    margin: auto;
+}
+.main__section > div h4 {
+    font-weight: 800;
+    font-size: 20px;
+    width: 300px;
+}
+.main__img9 {
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    background-image: url("/images/InfoGuard.png");
+}
+.main__section a {
+    background: #0070F6;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    width: 250px;
+    height: 65px;
+    font-weight: 600;
+    margin: auto;
+}
+footer {
+    width: 100%;
+    height: 148px;
+    background-color: #071D2B;
+    display: flex;
+    color: rgba(225, 198, 198, 0.637);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+footer ul {
+    display: flex;
+}
+footer > ul {
+    justify-content: space-evenly;
+    width: 650px;
+    padding: 0;
+}
+footer a {
+    color: rgba(255, 255, 255, 0.637);
+    text-decoration: none;
+}
+footer div {
+    display: flex;
+    align-items: baseline;
+}
+.Download__button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #665;
+    transform: translateY(4px);
+}
+
+.Download__button {
+    transition: 0.3s;
+}
+.Download__button:hover {
+    transform: scale(1.1);
+}
+
+.horse-light {
+    background-image: url("https://i.ibb.co/DWZZjNv/Checkers-White.png");
+  }
+  
+  .horse-dark {
+    background-image: url("https://i.ibb.co/qy5vYwN/Checkers.png");
+  }
